@@ -17,3 +17,4 @@
             ```sh
             curl 'https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x798d1be841a82a273720ce31c822c61a67a601c3&address=0x5e79958efbb8afdedb6ec7107110f329e4eafffa&tag=latest&apikey=S6BUBDEGTTTYHTQT3UN1Y6SAJ4F8UVFHZW'
             ```
+- Google search interest: Not possible
