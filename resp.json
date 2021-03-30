@@ -1,0 +1,633 @@
+[
+    {
+        "name": "Curve.fi renBTC/wBTC/sBTC",
+        "asset": "sBTCCRV",
+        "vaultToken": "0xd04c48A53c111300aD41190D63681ed3dAd998eC",
+        "underlyingToken": "0x075b1bb99792c9E1041bA13afEf80C91a1e70fB3",
+        "ppfs": 1.007068457161996,
+        "value": 130012794.32220297,
+        "apy": 18.79974782682803,
+        "tokens": [
+            {
+                "address": "0x075b1bb99792c9E1041bA13afEf80C91a1e70fB3",
+                "name": "Curve.fi renBTC/wBTC/sBTC",
+                "symbol": "Curve.fi renBTC/wBTC/sBTC",
+                "decimals": 18,
+                "balance": 2255.593348960237,
+                "value": 133224365.56298745
+            }
+        ],
+        "sources": [
+            {
+                "name": "Vault Compounding",
+                "apy": 1.9324289821875265,
+                "performance": {
+                    "oneDay": 5.747454409639057,
+                    "threeDay": 1.9324289821875265,
+                    "sevenDay": 1.742054412904969,
+                    "thirtyDay": 1.7237055023154733
+                }
+            },
+            {
+                "name": "Curve LP Fees",
+                "apy": 0.4765866503128713,
+                "performance": {
+                    "oneDay": 0.4765866503128713,
+                    "threeDay": 0.4765866503128713,
+                    "sevenDay": 0.4392986739107485,
+                    "thirtyDay": 0.38243625625111743
+                }
+            },
+            {
+                "name": "Badger Rewards",
+                "apy": 14.575176262078205,
+                "performance": {
+                    "oneDay": 14.575176262078205,
+                    "threeDay": 14.575176262078205,
+                    "sevenDay": 14.575176262078205,
+                    "thirtyDay": 14.575176262078205
+                }
+            },
+            {
+                "name": "Digg Rewards",
+                "apy": 1.8155559322494255,
+                "performance": {
+                    "oneDay": 1.8155559322494255,
+                    "threeDay": 1.8155559322494255,
+                    "sevenDay": 1.8155559322494255,
+                    "thirtyDay": 1.8155559322494255
+                }
+            }
+        ]
+    },
+    {
+        "name": "Curve.fi crvRenWBTC",
+        "asset": "renBTCCRV",
+        "vaultToken": "0x6dEf55d2e18486B9dDfaA075bc4e4EE0B28c1545",
+        "underlyingToken": "0x49849C98ae39Fff122806C06791Fa73784FB3675",
+        "ppfs": 1.0055265628553345,
+        "value": 217483343.7408528,
+        "apy": 12.646383216946575,
+        "tokens": [
+            {
+                "address": "0x49849C98ae39Fff122806C06791Fa73784FB3675",
+                "name": "Curve.fi: renCrv Token",
+                "symbol": "Curve.fi renBTC/wBTC (crvRenWBTC)",
+                "decimals": 18,
+                "balance": 3690.0012483864843,
+                "value": 217647343.63358
+            }
+        ],
+        "sources": [
+            {
+                "name": "Vault Compounding",
+                "apy": 2.1111939436676916,
+                "performance": {
+                    "oneDay": 6.2780567058366294,
+                    "threeDay": 2.1111939436676916,
+                    "sevenDay": 1.9839087933173658,
+                    "thirtyDay": 1.765960569079798
+                }
+            },
+            {
+                "name": "Curve LP Fees",
+                "apy": 0.7367152526169818,
+                "performance": {
+                    "oneDay": 0.7367152526169818,
+                    "threeDay": 0.7367152526169818,
+                    "sevenDay": 0.27585873456972276,
+                    "thirtyDay": 0.4841314571559119
+                }
+            },
+            {
+                "name": "Badger Rewards",
+                "apy": 8.713124237364173,
+                "performance": {
+                    "oneDay": 8.713124237364173,
+                    "threeDay": 8.713124237364173,
+                    "sevenDay": 8.713124237364173,
+                    "thirtyDay": 8.713124237364173
+                }
+            },
+            {
+                "name": "Digg Rewards",
+                "apy": 1.0853497832977286,
+                "performance": {
+                    "oneDay": 1.0853497832977286,
+                    "threeDay": 1.0853497832977286,
+                    "sevenDay": 1.0853497832977286,
+                    "thirtyDay": 1.0853497832977286
+                }
+            }
+        ]
+    },
+    {
+        "name": "Curve.fi tBTC/sBTCCrv LP",
+        "asset": "tBTCCRV",
+        "vaultToken": "0xb9D076fDe463dbc9f915E5392F807315Bf940334",
+        "underlyingToken": "0x64eda51d3Ad40D56b9dFc5554E06F94e1Dd786Fd",
+        "ppfs": 1.013029739041863,
+        "value": 130909814.88525069,
+        "apy": 16.577958498957656,
+        "tokens": [
+            {
+                "address": "0x64eda51d3Ad40D56b9dFc5554E06F94e1Dd786Fd",
+                "name": "Curve.fi tBTC/sbtcCrv",
+                "symbol": "Curve.fi tBTC/sbtcCrv (tbtc/sbtc)",
+                "decimals": 18,
+                "balance": 2204.8702065888565,
+                "value": 131397035.09145631
+            }
+        ],
+        "sources": [
+            {
+                "name": "Curve LP Fees",
+                "apy": 0.2995389210263433,
+                "performance": {
+                    "oneDay": 0.2995389210263433,
+                    "threeDay": 0.2995389210263433,
+                    "sevenDay": 0.3677417346694467,
+                    "thirtyDay": 0.3366436880883672
+                }
+            },
+            {
+                "name": "Badger Rewards",
+                "apy": 14.475304202610475,
+                "performance": {
+                    "oneDay": 14.475304202610475,
+                    "threeDay": 14.475304202610475,
+                    "sevenDay": 14.475304202610475,
+                    "thirtyDay": 14.475304202610475
+                }
+            },
+            {
+                "name": "Digg Rewards",
+                "apy": 1.8031153753208364,
+                "performance": {
+                    "oneDay": 1.8031153753208364,
+                    "threeDay": 1.8031153753208364,
+                    "sevenDay": 1.8031153753208364,
+                    "thirtyDay": 1.8031153753208364
+                }
+            }
+        ]
+    },
+    {
+        "name": "Harvest Curve.fi crvRenWBTC",
+        "asset": "hrenBTCCRV",
+        "vaultToken": "0xAf5A1DECfa95BAF63E0084a35c62592B774A2A87",
+        "underlyingToken": "0x49849C98ae39Fff122806C06791Fa73784FB3675",
+        "ppfs": 1.0037727931972886,
+        "value": 145672159.96617877,
+        "apy": 17.316092723678075,
+        "tokens": [
+            {
+                "address": "0x49849C98ae39Fff122806C06791Fa73784FB3675",
+                "name": "Curve.fi: renCrv Token",
+                "symbol": "Curve.fi renBTC/wBTC (crvRenWBTC)",
+                "decimals": 18,
+                "balance": 2528.7346703885046,
+                "value": 149152357.06352517
+            }
+        ],
+        "sources": [
+            {
+                "name": "Vault Compounding",
+                "apy": 1.9506049309532825,
+                "performance": {
+                    "oneDay": 1.901438410690174,
+                    "threeDay": 1.9506049309532825,
+                    "sevenDay": 1.62391098778687,
+                    "thirtyDay": 1.1541143935002325
+                }
+            },
+            {
+                "name": "Curve LP Fees",
+                "apy": 0.7367152526169818,
+                "performance": {
+                    "oneDay": 0.7367152526169818,
+                    "threeDay": 0.7367152526169818,
+                    "sevenDay": 0.27585873456972276,
+                    "thirtyDay": 0.4841314571559119
+                }
+            },
+            {
+                "name": "Badger Rewards",
+                "apy": 13.008383990540045,
+                "performance": {
+                    "oneDay": 13.008383990540045,
+                    "threeDay": 13.008383990540045,
+                    "sevenDay": 13.008383990540045,
+                    "thirtyDay": 13.008383990540045
+                }
+            },
+            {
+                "name": "Digg Rewards",
+                "apy": 1.620388549567766,
+                "performance": {
+                    "oneDay": 1.620388549567766,
+                    "threeDay": 1.620388549567766,
+                    "sevenDay": 1.620388549567766,
+                    "thirtyDay": 1.620388549567766
+                }
+            }
+        ]
+    },
+    {
+        "name": "Uniswap Wrapped BTC/Badger",
+        "asset": "BADGER-WBTC",
+        "vaultToken": "0x235c9e24D3FB2FAFd58a2E49D454Fdcd2DBf7FF1",
+        "underlyingToken": "0xcD7989894bc033581532D2cd88Da5db0A4b12859",
+        "ppfs": 1.5085582487432467,
+        "value": 39082686.78795054,
+        "apy": 81.32803172790143,
+        "tokens": [
+            {
+                "name": "Wrapped BTC",
+                "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                "symbol": "WBTC",
+                "decimals": "8",
+                "balance": 335.70377566787323,
+                "value": 19800815.800218165
+            },
+            {
+                "name": "Badger",
+                "address": "0x3472a5a71965499acd81997a54bba8d852c6e53d",
+                "symbol": "BADGER",
+                "decimals": "18",
+                "balance": 491022.3989202155,
+                "value": 19478858.56516495
+            }
+        ],
+        "sources": [
+            {
+                "name": "Vault Compounding",
+                "apy": 44.28937720996988,
+                "performance": {
+                    "oneDay": 43.56630848339907,
+                    "threeDay": 44.28937720996988,
+                    "sevenDay": 45.3675064920087,
+                    "thirtyDay": 54.1817417433451
+                }
+            },
+            {
+                "name": "Badger Rewards",
+                "apy": 30.99901089566211,
+                "performance": {
+                    "oneDay": 30.99901089566211,
+                    "threeDay": 30.99901089566211,
+                    "sevenDay": 30.99901089566211,
+                    "thirtyDay": 30.99901089566211
+                }
+            },
+            {
+                "name": "Digg Rewards",
+                "apy": 6.039643622269451,
+                "performance": {
+                    "oneDay": 6.039643622269451,
+                    "threeDay": 6.039643622269451,
+                    "sevenDay": 6.039643622269451,
+                    "thirtyDay": 6.039643622269451
+                }
+            }
+        ]
+    },
+    {
+        "name": "Uniswap Wrapped BTC/Digg",
+        "asset": "DIGG-WBTC",
+        "vaultToken": "0xC17078FDd324CC473F8175Dc5290fae5f2E84714",
+        "underlyingToken": "0xE86204c4eDDd2f70eE00EAd6805f917671F56c52",
+        "ppfs": 1.3952341719359969,
+        "value": 18359248.233650442,
+        "apy": 234.637240490236,
+        "tokens": [
+            {
+                "name": "Wrapped BTC",
+                "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                "symbol": "WBTC",
+                "decimals": "8",
+                "balance": 156.88884135247199,
+                "value": 9253774.529492855
+            },
+            {
+                "name": "Digg",
+                "address": "0x798d1be841a82a273720ce31c822c61a67a601c3",
+                "symbol": "DIGG",
+                "decimals": "9",
+                "balance": 205.35216360934055,
+                "value": 9296087.094431238
+            }
+        ],
+        "sources": [
+            {
+                "name": "Vault Compounding",
+                "apy": 144.63799438976193,
+                "performance": {
+                    "oneDay": 142.16860496147044,
+                    "threeDay": 144.63799438976193,
+                    "sevenDay": 134.11543874454657,
+                    "thirtyDay": 123.18443632755991
+                }
+            },
+            {
+                "name": "Digg Rewards",
+                "apy": 89.99924610047407,
+                "performance": {
+                    "oneDay": 89.99924610047407,
+                    "threeDay": 89.99924610047407,
+                    "sevenDay": 89.99924610047407,
+                    "thirtyDay": 89.99924610047407
+                }
+            }
+        ]
+    },
+    {
+        "name": "Sushiswap Wrapped BTC/Wrapped Ether",
+        "asset": "SLP-WBTC-ETH",
+        "vaultToken": "0x758A43EE2BFf8230eeb784879CdcFF4828F2544D",
+        "underlyingToken": "0xCEfF51756c56CeFFCA006cD410B03FFC46dd3a58",
+        "ppfs": 1,
+        "value": 186159215.22527933,
+        "apy": 18.295357654391967,
+        "tokens": [
+            {
+                "name": "Wrapped BTC",
+                "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                "symbol": "WBTC",
+                "decimals": "8",
+                "balance": 1579.5206426477487,
+                "value": 93164866.06529216
+            },
+            {
+                "name": "Wrapped Ether",
+                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "symbol": "WETH",
+                "decimals": "18",
+                "balance": 50783.21305754733,
+                "value": 93082582.54170081
+            }
+        ],
+        "sources": [
+            {
+                "name": "Sushiswap LP Fees",
+                "apy": 1.6351516643123432,
+                "performance": {
+                    "oneDay": 0.6367204559989883,
+                    "threeDay": 1.6351516643123432,
+                    "sevenDay": 2.4316186591767246,
+                    "thirtyDay": 3.216612392737498
+                }
+            },
+            {
+                "name": "Sushi",
+                "apy": 5.212989203134066,
+                "performance": {
+                    "oneDay": 5.212989203134066,
+                    "threeDay": 5.212989203134066,
+                    "sevenDay": 5.212989203134066,
+                    "thirtyDay": 5.212989203134066
+                }
+            },
+            {
+                "name": "Badger Rewards",
+                "apy": 10.1792403415445,
+                "performance": {
+                    "oneDay": 10.1792403415445,
+                    "threeDay": 10.1792403415445,
+                    "sevenDay": 10.1792403415445,
+                    "thirtyDay": 10.1792403415445
+                }
+            },
+            {
+                "name": "Digg Rewards",
+                "apy": 1.267976445401057,
+                "performance": {
+                    "oneDay": 1.267976445401057,
+                    "threeDay": 1.267976445401057,
+                    "sevenDay": 1.267976445401057,
+                    "thirtyDay": 1.267976445401057
+                }
+            }
+        ]
+    },
+    {
+        "name": "Sushiswap Wrapped BTC/Badger",
+        "asset": "SLP-BADGER-WBTC",
+        "vaultToken": "0x1862A18181346EBd9EdAf800804f89190DeF24a5",
+        "underlyingToken": "0x110492b31c59716AC47337E616804E3E3AdC0b4a",
+        "ppfs": 1.282359518673227,
+        "value": 39753575.82348049,
+        "apy": 82.48843895854141,
+        "tokens": [
+            {
+                "name": "Wrapped BTC",
+                "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                "symbol": "WBTC",
+                "decimals": "8",
+                "balance": 342.3089849049157,
+                "value": 20190410.856646642
+            },
+            {
+                "name": "Badger",
+                "address": "0x3472a5a71965499acd81997a54bba8d852c6e53d",
+                "symbol": "BADGER",
+                "decimals": "18",
+                "balance": 501058.7974543231,
+                "value": 19877002.495012995
+            }
+        ],
+        "sources": [
+            {
+                "name": "Vault Compounding",
+                "apy": 36.840741476107354,
+                "performance": {
+                    "oneDay": 36.60982975909999,
+                    "threeDay": 36.840741476107354,
+                    "sevenDay": 37.64580430831372,
+                    "thirtyDay": 43.693683318636126
+                }
+            },
+            {
+                "name": "Sushiswap LP Fees",
+                "apy": 4.12163882378881,
+                "performance": {
+                    "oneDay": 3.7917919071534136,
+                    "threeDay": 4.12163882378881,
+                    "sevenDay": 5.677809142903797,
+                    "thirtyDay": 6.867243640000121
+                }
+            },
+            {
+                "name": "Sushi",
+                "apy": 5.112475639116732,
+                "performance": {
+                    "oneDay": 5.112475639116732,
+                    "threeDay": 5.112475639116732,
+                    "sevenDay": 5.112475639116732,
+                    "thirtyDay": 5.112475639116732
+                }
+            },
+            {
+                "name": "Badger Rewards",
+                "apy": 30.475865591337325,
+                "performance": {
+                    "oneDay": 30.475865591337325,
+                    "threeDay": 30.475865591337325,
+                    "sevenDay": 30.475865591337325,
+                    "thirtyDay": 30.475865591337325
+                }
+            },
+            {
+                "name": "Digg Rewards",
+                "apy": 5.937717428191189,
+                "performance": {
+                    "oneDay": 5.937717428191189,
+                    "threeDay": 5.937717428191189,
+                    "sevenDay": 5.937717428191189,
+                    "thirtyDay": 5.937717428191189
+                }
+            }
+        ]
+    },
+    {
+        "name": "Sushiswap Wrapped BTC/Digg",
+        "asset": "SLP-DIGG-WBTC",
+        "vaultToken": "0x88128580ACdD9c04Ce47AFcE196875747bF2A9f6",
+        "underlyingToken": "0x9a13867048e01c663ce8Ce2fE0cDAE69Ff9F35E3",
+        "ppfs": 1.3695390648693053,
+        "value": 21233616.458962455,
+        "apy": 212.16241506523755,
+        "tokens": [
+            {
+                "name": "Wrapped BTC",
+                "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                "symbol": "WBTC",
+                "decimals": "8",
+                "balance": 181.55031101968788,
+                "value": 10708381.99487425
+            },
+            {
+                "name": "Digg",
+                "address": "0x798d1be841a82a273720ce31c822c61a67a601c3",
+                "symbol": "DIGG",
+                "decimals": "9",
+                "balance": 235.58448708149956,
+                "value": 10664674.145692404
+            }
+        ],
+        "sources": [
+            {
+                "name": "Vault Compounding",
+                "apy": 123.82755547045802,
+                "performance": {
+                    "oneDay": 120.66829584154104,
+                    "threeDay": 123.82755547045802,
+                    "sevenDay": 118.18476140252616,
+                    "thirtyDay": 104.31275754072473
+                }
+            },
+            {
+                "name": "Sushiswap LP Fees",
+                "apy": 5.726457067267552,
+                "performance": {
+                    "oneDay": 4.389679080535309,
+                    "threeDay": 5.726457067267552,
+                    "sevenDay": 6.650789049371882,
+                    "thirtyDay": 3.6028367309082343
+                }
+            },
+            {
+                "name": "Sushi",
+                "apy": 4.792242327322576,
+                "performance": {
+                    "oneDay": 4.792242327322576,
+                    "threeDay": 4.792242327322576,
+                    "sevenDay": 4.792242327322576,
+                    "thirtyDay": 4.792242327322576
+                }
+            },
+            {
+                "name": "Digg Rewards",
+                "apy": 77.81616020018937,
+                "performance": {
+                    "oneDay": 77.81616020018937,
+                    "threeDay": 77.81616020018937,
+                    "sevenDay": 77.81616020018937,
+                    "thirtyDay": 77.81616020018937
+                }
+            }
+        ]
+    },
+    {
+        "name": "Digg",
+        "asset": "DIGG",
+        "vaultToken": "0x7e7E112A68d8D2E221E11047a72fFC1065c38e1a",
+        "underlyingToken": "0x798D1bE841a82a273720CE31c822C61a67a601C3",
+        "ppfs": 0.8598291765275106,
+        "value": 31327226.069374524,
+        "apy": 69.97833803368181,
+        "tokens": [
+            {
+                "address": "0x798D1bE841a82a273720CE31c822C61a67a601C3",
+                "name": "Digg",
+                "symbol": "DIGG",
+                "decimals": 9,
+                "balance": 692.023814738,
+                "value": 31327226.069374524
+            }
+        ],
+        "sources": [
+            {
+                "name": "Vault Compounding",
+                "apy": 69.97833803368181,
+                "performance": {
+                    "oneDay": 70.04909936419698,
+                    "threeDay": 69.97833803368181,
+                    "sevenDay": 81.83812786073977,
+                    "thirtyDay": 124.02753724824996
+                }
+            }
+        ]
+    },
+    {
+        "name": "Badger",
+        "asset": "BADGER",
+        "vaultToken": "0x19D97D8fA813EE2f51aD4B4e04EA08bAf4DFfC28",
+        "underlyingToken": "0x3472A5A71965499acd81997a54BBA8D852C6E53d",
+        "ppfs": 1.222691495989764,
+        "value": 79429826.73683248,
+        "apy": 12.414661474916027,
+        "tokens": [
+            {
+                "address": "0x3472A5A71965499acd81997a54BBA8D852C6E53d",
+                "name": "Badger",
+                "symbol": "BADGER",
+                "decimals": 18,
+                "balance": 3784307.436032729,
+                "value": 150123475.98741838
+            }
+        ],
+        "sources": [
+            {
+                "name": "Vault Compounding",
+                "apy": 4.7895801130336055,
+                "performance": {
+                    "oneDay": 4.789621687667918,
+                    "threeDay": 4.7895801130336055,
+                    "sevenDay": 4.979893945197467,
+                    "thirtyDay": 6.392941627914979
+                }
+            },
+            {
+                "name": "Badger Rewards",
+                "apy": 7.6250813618824225,
+                "performance": {
+                    "oneDay": 7.6250813618824225,
+                    "threeDay": 7.6250813618824225,
+                    "sevenDay": 7.6250813618824225,
+                    "thirtyDay": 7.6250813618824225
+                }
+            }
+        ]
+    }
+]
