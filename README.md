@@ -1,85 +1,46 @@
-# Features
-- BTC vs DIGG prices
-- Setts (DIGG, Sushiswap, Uniswap): Total deposits, ROI
+# Diggmetrics: DIGG analytics dashboard
+![Diggmetrics](https://user-images.githubusercontent.com/49580849/113136714-50240700-9241-11eb-9b7e-2d922516b3c5.png)
 
-    ```
-    curl https://api.sett.vision/protocol/farm
-    ```
+DIGG is an elastic supply rebase token pegged to the Bitcoin. Here's a dashboard which lets you study the relation between the two.
 
-- Token data: total supply, supply pie chart (vesting funds, rewards escrow, DAO funds, Airdrop, circulation). Get from CoinGecko API
-    - Total and circulating supply: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=digg
-    - Circulation breakdown: Subtract these from total supply to get circulating supply
-        1. Team vesting funds: https://etherscan.io/token/0x798d1be841a82a273720ce31c822c61a67a601c3?a=0x124fd4a9bd4914b32c77c9ae51819b1181dbb3d4
-        2. Rewards escrow: https://etherscan.io/token/0x798d1be841a82a273720ce31c822c61a67a601c3?a=0x19d099670a21bc0a8211a89b84cedf59abb4377f
-        3. DAO funds: https://etherscan.io/token/0x798d1be841a82a273720ce31c822c61a67a601c3?a=0x5a54ca44e8f5a1a695f8621f15bfa159a140bb61
-        4. Airdrop: https://etherscan.io/token/0x798d1be841a82a273720ce31c822c61a67a601c3?a=0x5e79958efbb8afdedb6ec7107110f329e4eafffa (It's 0 now)
+## Features
+1. DIGG vs BTC price over time: You can pick a time period from 1 day to all time.
+2. DIGG ownership: Shows a pie chart on percentage ownership and available circulation.
+3. DIGG staking: Shows how DIGG is deposited in various setts.
 
-            ```sh
-            curl 'https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x798d1be841a82a273720ce31c822c61a67a601c3&address=0x5e79958efbb8afdedb6ec7107110f329e4eafffa&tag=latest&apikey=S6BUBDEGTTTYHTQT3UN1Y6SAJ4F8UVFHZW'
-            ```
-- Google search interest: Not possible
+## Screenshots
+### Desktop
+![1 1-pc-top](https://user-images.githubusercontent.com/49580849/113136575-27037680-9241-11eb-9565-eb95ea83c3ae.png)
 
-## Subgraph usage
-```graphql
-{
-  tokenBalances(orderBy: balance, orderDirection: desc) {
-    id
-    balance
-    token {
-      name
-    }
+![1 2-pc-bottom](https://user-images.githubusercontent.com/49580849/113136577-2834a380-9241-11eb-80c5-509eed5c0d14.png)
+
+### Mobile
+![2 1-mob-top](https://user-images.githubusercontent.com/49580849/113136567-24088600-9241-11eb-9951-9f210b19693d.png)
+
+![2 2-mob-bottom](https://user-images.githubusercontent.com/49580849/113136574-266ae000-9241-11eb-95eb-cc5d7037e939.png)
+
+## Tech stack
+- The Graph: Uses the official [Badger subgraph](https://thegraph.com/explorer/subgraph/darruma/badger) to fetch DIGG balance for various accounts.
+
+  ```graphql
+  query getBalance($id: ID!) {
+      tokenBalance(id: $id) {
+          id
+          balance
+          token {
+          name
+          }
+      }
   }
-}
-```
+  ```
 
-```json
-{
-  "data": {
-    "tokenBalances": [
-      {
-        "balance": "46316835694926478169428394003475163141307993866256225615783033601600000000000",
-        "id": "0x5a54ca44e8f5a1a695f8621f15bfa159a140bb61-0x798d1be841a82a273720ce31c822c61a67a601c3",
-        "token": {
-          "name": "Digg"
-        }
-      },
-      {
-        "balance": "20173219154436926608344814587747762963314633070231619877797290934340870482621",
-        "id": "0x4a8651f2edd68850b944ad93f2c67af817f39f62-0x798d1be841a82a273720ce31c822c61a67a601c3",
-        "token": {
-          "name": "Digg"
-        }
-      },
-```
+- Bootstrap 5
+- Netlify
+- Vanilla javascript
+- Badger finance API
+- Google fonts
+- CoinGecko price comparison widget
 
-ID Format in `0x5a54ca44e8f5a1a695f8621f15bfa159a140bb61-0x798d1be841a82a273720ce31c822c61a67a601c3`
-1. First address is holder address (DAO funds)
-2. Last address is DIGG contract address
-
-Must be in lowercase
-
-Find DIGG balance
-```
-{
-  tokenBalance(id: "0x124fd4a9bd4914b32c77c9ae51819b1181dbb3d4-0x798d1be841a82a273720ce31c822c61a67a601c3") {
-    id
-    balance
-    token {
-      name
-    }
-  }
-}
-```
-
-BigInt issue
-- https://thegraph.com/docs/assemblyscript-api#built-in-types
-- https://github.com/graphprotocol/graph-ts : Can have decoder
-- https://stackoverflow.com/questions/59317194/how-to-use-npm-package-as-normal-javascript-in-html
-
-Call GraphQL
-```
-curl -X POST \
--H "Content-Type: application/json" \
--d '{"query": "{ hello }"}' \
-https://api.thegraph.com/subgraphs/name/darruma/badger
-```
+## Gitcoin GR9 qualifying bounties
+- [Badger](https://gitcoin.co/issue/Badger-Finance/badger-system/70/100025037)
+- [The Graph](https://gitcoin.co/issue/graphprotocol/gitcoin-grants-round-9-hackathon/1/100025068)
