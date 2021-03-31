@@ -15,7 +15,7 @@
     <title>Digglytics</title>
 </head>
 
-<body  onload="getSettData()">
+<body  onload="renderSettTable()">
     <nav class="navbar navbar-light bg-dark">
         <a class="navbar-brand text-light" href="#">
             <img src="https://badger.finance/wp-content/uploads/2021/01/digg_logo-01.png" alt="" width="30" height="30"
@@ -33,11 +33,11 @@
         <div class="row">
 
             <div class="col col-md-6">
-                <div class="card">
+                <div class="card" id="chart-card">
                     <figure class="text-center mt-2">
                         <h4>DIGG ownership</h4>
                     </figure>
-                    <div id="piechart"></div>
+                    <div id="piechart" class="chart"></div>
                 </div>
             </div>
             <div class="col col-md-6">
@@ -47,30 +47,6 @@
                     </figure>
 
                     <div id="sett-table"></div>
-
-                    <!-- <table class="table table-image">
-                        <thead>
-                            <tr>
-                                <th scope="col"></th>
-                                <th scope="col">Sett</th>
-                                <th scope="col">Staked $DIGG</th>
-                                <th scope="col">Annual ROI (%)</th>
-                                <th scope="col">Value (USD)</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <img src="https://app.badger.finance/assets/icons/digg.png" class="img-fluid" width="40" height="40"
-                                        alt="">
-                                </td>
-                                <td>Badger</td>
-                                <td>400</td>
-                                <td>74</td>
-                                <td>68997874</td>
-                            </tr>
-                        </tbody>
-                    </table> -->
                 </div>
             </div>
         </div>
