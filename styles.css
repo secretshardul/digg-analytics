@@ -1,3 +1,8 @@
 .navbar-brand {
   margin: auto;
 }
+
+#navbar {
+  font-family: 'VT323', monospace;
+  font-size: 30px;
+}

@@ -10,6 +10,9 @@
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
     <!-- DIGG vs BTC widget -->
     <script src="digg-vs-btc-widget.js"></script>
 
@@ -25,7 +28,7 @@
 <body  onload="renderSettTable()">
     <!-- Navbar -->
     <nav class="navbar navbar-light bg-dark">
-        <a class="navbar-brand text-light" href="#">
+        <a class="navbar-brand text-light" id="navbar" href="#">
             <img src="https://badger.finance/wp-content/uploads/2021/01/digg_logo-01.png" alt="" width="30" height="30"
                 class="d-inline-block align-text-top">
             Diggmetrics
@@ -58,7 +61,7 @@
 
                     <div id="sett-table"></div>
                     <div class="text-center">
-                        <button type="button" class="btn btn-dark" style="width: fit-content;">Stake now</button>
+                        <a class="btn btn-dark" href="http://app.badger.finance" target="_blank">Stake now</a>
                     </div>
                 </div>
             </div>
