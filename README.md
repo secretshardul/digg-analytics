@@ -8,6 +8,12 @@ DIGG is an elastic supply rebase token pegged to the Bitcoin. Here's a dashboard
 2. DIGG ownership: Shows a pie chart on percentage ownership and available circulation.
 3. DIGG staking: Shows how DIGG is deposited in various setts.
 
+## Demo
+https://diggmetrics.netlify.app/
+
+## Video
+[![Video](https://user-images.githubusercontent.com/49580849/113214983-da975580-9297-11eb-89b3-1ac6f4687615.png)](https://www.youtube.com/watch?v=gRNjXKna4EE)
+
 ## Screenshots
 ### Desktop
 ![1 1-pc-top](https://user-images.githubusercontent.com/49580849/113136575-27037680-9241-11eb-9565-eb95ea83c3ae.png)
