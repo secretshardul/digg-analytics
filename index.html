@@ -15,7 +15,7 @@
     <title>Digglytics</title>
 </head>
 
-<body>
+<body  onload="getSettData()">
     <nav class="navbar navbar-light bg-dark">
         <a class="navbar-brand text-light" href="#">
             <img src="https://badger.finance/wp-content/uploads/2021/01/digg_logo-01.png" alt="" width="30" height="30"
@@ -35,12 +35,12 @@
             <div class="col col-md-6">
                 <div class="card">
                     <figure class="text-center mt-2">
-                        <h4>DIGG circulation</h4>
+                        <h4>DIGG ownership</h4>
                     </figure>
                     <div id="piechart"></div>
                 </div>
             </div>
-            <div class="col col-md-6" onload="getSettData">
+            <div class="col col-md-6">
                 <div class="card col-md-12">
                     <figure class="text-center mt-2">
                         <h4>Stake in setts</h4>
